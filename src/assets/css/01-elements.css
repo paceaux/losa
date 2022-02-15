@@ -1,0 +1,22 @@
+@import 'typography-baseline.css';
+@import 'table-baseline.css';
+
+@font-face {
+    font-family: 'Redressed';
+    src: url('/assets/fonts/Redressed-Regular.ttf');
+    font-weight: normal;
+}
+
+/*
+    #BRAND
+*/
+
+:root {
+    --colorNeutralDarkest: rgb(22,22,22);
+}
+html:root {
+    --titleFontFamily: 'Redressed';
+    --baseTextColor: var(--colorNeutralLighter);
+    --colorWarm: hsl(5deg, 50%, 38%);
+    background-color: var(--colorNeutralDarkest);
+}

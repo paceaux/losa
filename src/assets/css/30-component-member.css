@@ -1,0 +1,34 @@
+.members {
+    padding: 0 1.618rem;
+}
+
+.members__title {
+    border-bottom: 3px solid;
+}
+
+.member {
+    
+}
+
+.member__name {
+
+}
+
+.member__figure {
+
+}
+
+.member__figureQuote {
+    margin-bottom: 0;
+}
+
+.member__figureCaption {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 1.618em;
+}
+
+.member__figureQuoteSource {
+    display: inline-block;
+    margin-left: 1.618em;
+}

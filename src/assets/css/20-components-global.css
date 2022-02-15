@@ -1,0 +1,119 @@
+/*====================
+    GLOBAL COMPONENTS
+====================*/
+
+ /*==========
+    #GlOBAL #HEADER
+ ==========*/
+/*=== g-header ===
+    __hgroup
+    __title
+    __titleLink
+    __subtitle
+    __element
+*/
+
+.g-header {
+    display: flex;
+    justify-content: center;
+}
+
+.g-header__hgroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.g-header__title {
+    line-height: 1;
+    padding: 5px 10px;
+    margin-bottom: 0;
+}
+
+.g-header__titleLink {  
+    color: var(--colorWarm);
+
+    &:hover, &:focus, &:active {
+        border-bottom: transparent
+    }
+}
+
+ /*==========
+    #GlOBAL #NAV
+ ==========*/
+
+/*=== g-nav ===
+    __list
+    __listItem
+    __listItemLink
+    
+*/
+.g-nav__list {
+    list-style: none;
+    padding: 0;
+}
+
+.g-nav__listItem {
+    text-align: right;
+    line-height: 1;
+    margin: 0 0 .2em 0;
+}
+
+/*===============
+   #GLOBAL #FOOTER
+===============*/
+
+/*=== g-footer ===
+    __legal
+    __link
+    __element
+    __element
+    
+*/
+
+.g-footer {
+    justify-content: space-between;
+    border-top: 1px solid #504747;
+    padding: 0 10vw;
+}
+
+.g-footer__link {
+    font-size: .618em;
+}
+
+/*===============
+    #GlOBAL #MAIN
+===============*/
+
+.g-main {
+    animation-name: fadein;
+    animation-duration: .75s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-direction: linear;
+}
+
+.g-main {
+    flex-direction: column;
+    min-height: 70vh;
+    width: 95vw;
+    margin: 0 auto;
+
+    @media screen and (min-width: 767px) {
+        width: 80vw;
+    }
+}
+
+.g-main__footer {
+    text-align: center;
+    padding: .618em;
+    border: .5em solid var(--colorNeutralLighter);
+    margin: 1.168rem auto;
+    background-color: var(--colorNeutralDark);
+    width: 90%;
+
+    @media screen and (min-width: 768px) {
+        width: 61.8%;
+    }
+
+}
